@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Responsive Demo";
+}
+
+<div class="container mt-5">
+    <!-- العنوان -->
+    <h1 class="display-1 text-primary">Pakkende titel</h1>
+    <h4 class="text-muted">Subtiele subtitel</h4>
+
+    <!-- الصف الأول: 50% + 50% -->
+    <div class="row g-0">
+        <div class="col-md-6 col-12 bg-primary bg-opacity-10 border">
+            50% op desktop, 100% op mobiel
+        </div>
+        <div class="col-md-6 col-12 bg-primary bg-opacity-10 border">
+            50% op desktop, 100% op mobiel
+        </div>
+    </div>
+
+    <!-- الصف الثاني: 50% + 25% مع offset -->
+    <div class="row g-0">
+        <div class="col-6 bg-warning bg-opacity-25 border">
+            Altijd 50%
+        </div>
+        <div class="col-3 offset-3 bg-warning bg-opacity-25 border">
+            Altijd 25%, 3 opgeschoven
+        </div>
+    </div>
+
+    <!-- الصف الثالث: عمود واحد 25% -->
+    <div class="row g-0">
+        <div class="col-3 bg-success bg-opacity-25 border">
+            Altijd 25% en enige in zijn rij.
+        </div>
+    </div>
+
+    <!-- الصف الرابع: عمودين كل واحد 25% -->
+    <div class="row g-0">
+        <div class="col-3 bg-success bg-opacity-25 border">
+            Ook 25% maar niet bij de vorige rij erbij
+        </div>
+        <div class="col-3 bg-success bg-opacity-25 border">
+            Ook 25% maar niet bij de vorige rij erbij
+        </div>
+    </div>
+
+    <!-- الرسالة -->
+    <div class="row g-0">
+        <div class="col-12">
+            <div class="alert alert-success d-inline-block p-2 m-0">
+                <i class="bi bi-check-circle"></i> Het is me gelukt!
+            </div>
+        </div>
+    </div>
+
+    <!-- الاقتباس -->
+    <figure class="text-end">
+        <blockquote class="blockquote">
+            <p>Do or do not, there is no try</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            The Doctor — <cite title="Star Trek SG-1">Star Trek SG-1</cite>
+        </figcaption>
+    </figure>
+</div>
