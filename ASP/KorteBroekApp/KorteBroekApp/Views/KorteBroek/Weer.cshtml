@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="weer-container">
+    <h1>@Model.Answer</h1>
+    <p>Temperatuur: @Model.Temperature °C</p>
+    <p>Kans op regen: @Model.RainChance %</p>
+    <img src="@Model.ImageUrl" alt="Weerbeeld" />
+</div>
